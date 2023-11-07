@@ -80,6 +80,8 @@ We don't have a real API for this challenge, so we added some utilities to simul
 
 **Actual:** Options dropdown stays in the same position as you scroll the page, losing the reference to the select input
 
+Done
+
 # Bug 2: Approve checkbox not working
 
 **How to reproduce:**
