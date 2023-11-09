@@ -137,9 +137,11 @@ hr.RampBreak--l {
   cursor: pointer;
 }
 
+/*
 .RampInputCheckbox--label-disabled {
   cursor: progress;
 }
+*/
 
 .RampInputCheckbox--label-checked:before {
   content: " ";
@@ -150,7 +152,8 @@ hr.RampBreak--l {
 }
 
 .RampInputCheckbox--input {
-  display: none;
+  /* made the checkbox visible */
+  display: visible;
 }
 
 .RampButton {

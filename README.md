@@ -91,6 +91,7 @@ Done
 **Expected:** Clicking the checkbox toggles its value
 
 **Actual:** Nothing happens
+I removed the disable fields
 
 # Bug 3: Cannot select _All Employees_ after selecting an employee
 
