@@ -119,6 +119,7 @@ Look at loadAllTransactions function and loadTransactionsByEmployee
 
 **Actual:** New transactions replace initial transactions, losing initial transactions
 Paginated Transaction
+useState Hook in usePaginatedTransactions
 
 # Bug 5: Employees filter not available during loading more data
 
