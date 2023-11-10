@@ -195,6 +195,7 @@ _You need to fix some of the previous bugs in order to reproduce_
 **Expected:** In steps 6 and 8, toggled transaction kept the same value it was given in step 2 _(E.g. Social Media Ads Inc is unchecked)_
 
 **Actual:** In steps 6 and 8, toggled transaction lost the value given in step 2. _(E.g. Social Media Ads Inc is checked again)_
+To persist a value we will look at the state, probably in useState.
 
 ## Submission
 

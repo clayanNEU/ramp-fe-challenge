@@ -20,13 +20,16 @@ export function App() {
   )
 
   const loadAllTransactions = useCallback(async () => {
+    // we load all transactions here, state is false
+    // we want to set state to false after employees are loaded
     setIsLoading(true)
     transactionsByEmployeeUtils.invalidateData()
 
     await employeeUtils.fetchAll()
-    await paginatedTransactionsUtils.fetchAll()
-
+    // after we fetch all employees we set it to false
     setIsLoading(false)
+
+    await paginatedTransactionsUtils.fetchAll()
   }, [employeeUtils, paginatedTransactionsUtils, transactionsByEmployeeUtils])
 
   const loadTransactionsByEmployee = useCallback(
