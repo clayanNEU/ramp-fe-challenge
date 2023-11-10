@@ -104,6 +104,8 @@ I removed the disable fields
 
 **Expected:** All transactions are loaded
 
+Look at loadAllTransactions function and loadTransactionsByEmployee
+
 **Actual:** The page crashes
 
 # Bug 4: Clicking on View More button not showing correct data
@@ -116,6 +118,7 @@ I removed the disable fields
 **Expected:** Initial transactions plus new transactions are shown on the page
 
 **Actual:** New transactions replace initial transactions, losing initial transactions
+Paginated Transaction
 
 # Bug 5: Employees filter not available during loading more data
 

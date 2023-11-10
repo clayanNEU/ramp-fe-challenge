@@ -64,8 +64,13 @@ export function App() {
             if (newValue === null) {
               return
             }
-
-            await loadTransactionsByEmployee(newValue.id)
+            // here is where it breaks, we want to load all transactions if we do not get a valid newValue
+            if (newValue.id === "") {
+              // handles if employee id is empty
+              await loadAllTransactions()
+            } else {
+              await loadTransactionsByEmployee(newValue.id)
+            }
           }}
         />
 
